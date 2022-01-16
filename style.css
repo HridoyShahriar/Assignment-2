@@ -21,12 +21,16 @@ cursor: pointer;}
     header i:hover{color: #0088a9;}
     header .fas {font-size: 25px;}
     .First-Section a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 400px;
         text-decoration: none;
         color: white;
-        background-color: blue;
+        background-color:#e22e6d;
+        border-radius: 15px;
         padding: 15px;
         transition: all 0.3s ease 0s;
         cursor: pointer;
     }
     .First-Section a:hover{
-        color: #0088a9;}
+        color: #000000;}
