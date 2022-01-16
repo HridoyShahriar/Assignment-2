@@ -130,3 +130,43 @@ header .fas {
         width:100% ;
         
 }
+
+
+.seemore1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight:700;
+        text-decoration: none;
+        color: #e22e6d;
+        display: block;
+        text-align: right;
+        padding-right: 20px;
+        margin-top: 30px;
+        
+}
+
+/* ------------------
+footer 
+------------------ */
+
+.foot{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        background-color: #0a0826;
+        color: white;
+        padding: 20px;
+}
+footer a {
+        color: white;
+        font-size: 30px;
+        padding: 5px;
+}
+.foot h1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+}
+.foot p {
+        font-weight: 500;
+        padding-top: 0;
+        margin-top: ;
+}
