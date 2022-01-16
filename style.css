@@ -42,7 +42,7 @@ header .fas {
         margin-top: 130px;}
 .First-Section img {
         width:60%;
-        background-color: #f8f2ff;
+        border: 10px solid #f8f2ff;
         border-radius: 50%;
         margin-left: 150px;}
 .First-Section p {
@@ -63,6 +63,18 @@ header .fas {
         transition: all 0.2s ease 0s;
         cursor: pointer;
     }
-    .First-Section a:hover{
+.First-Section a:hover{
         color:white;
         background-color:black ;}
+.second-section{
+        margin-top: 70px;
+        text-align: center;
+        border-style: solid;
+        border-top-color: #dbdfe3 ;
+        border-bottom-color:#dbdfe3;
+        border-left-style: hidden;
+        border-right-style: hidden;
+    }
+.second-section img {
+        padding: 30px;
+        }
