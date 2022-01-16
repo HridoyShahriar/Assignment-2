@@ -1,26 +1,57 @@
-main{margin: 80px;}
-header{display: flex;}
-header h3{font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-margin-right: auto;}
-nav li{list-style: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    font-weight: 600;
-display: inline-block;
-padding: 35px 10px;}
-nav a{text-decoration: none;
-color: black;
-transition: all 0.3s ease 0s;
-cursor: pointer;}
+main{
+        margin: 80px;}
+header{
+        display: flex;}
+header h3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        color: #383a3b;
+        margin-right: auto;}
+nav li{
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        display: inline-block;
+        padding: 35px 10px;}
+nav a{
+        text-decoration: none;
+        color: black;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;}
 nav a:hover{
-    color: #0088a9;}
-header i{padding: 33px 15px;
-    transition: all 0.3s ease 0s;
-cursor: pointer;}
-    header i:hover{color: #0088a9;}
-    header .fas {font-size: 25px;}
-    .First-Section a {
+        color: #0088a9;}
+header i{
+        padding: 33px 15px;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;}
+header i:hover{
+        color: #0088a9;}
+header .fas {
+        font-size: 25px;}
+.First-Section {display: flex;
+        margin-top:100px;}
+.half-width1{
+        width: 50%;}
+.First-Section h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+        color: #383a3b;
+        width:100%;
+        margin-bottom: 0px;
+        margin-top: 130px;}
+.First-Section img {
+        width:60%;
+        background-color: #f8f2ff;
+        border-radius: 50%;
+        margin-left: 150px;}
+.First-Section p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 50px;}
+.First-Section a {
         font-family: 'Montserrat', sans-serif;
         font-size: 17px;
         font-weight: 400px;
@@ -29,8 +60,9 @@ cursor: pointer;}
         background-color:#e22e6d;
         border-radius: 15px;
         padding: 15px;
-        transition: all 0.3s ease 0s;
+        transition: all 0.2s ease 0s;
         cursor: pointer;
     }
     .First-Section a:hover{
-        color: #000000;}
+        color:white;
+        background-color:black ;}
