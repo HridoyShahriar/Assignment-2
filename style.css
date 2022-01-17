@@ -186,10 +186,18 @@ mobile devices
 
 
 @media only screen and (max-width:688px){
+        main {
+                margin: 10px;
+        }
         
-        header{
-                grid-template-columns: repeat(1, 1fr);
-                flex-direction: column;}   
+        .half-width1{
+                display: list-item;
+                width: max-content;
+                height: fit-content;
+        } 
+        .half-width1 img {
+                display: none;
+        }
         .products{
                 grid-template-columns: repeat(1, 1fr);
         }   
@@ -205,6 +213,7 @@ mobile devices
 
  @media only screen and (min-width:689px) and (max-width:992px) {
           header{
+                  display: flex;
                 grid-template-columns: repeat(2, 1fr);
                 flex-direction: column;}
         .products{
